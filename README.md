@@ -12,9 +12,11 @@ a simple Numpy based Recurrent neural network for classifying spam SMS messages,
 #### Data set
 
 I used [dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset) from kaggle website for training network.
-I taken only 100 rows from this dataset and preprocessed very well that rnn can take. the preprocessed file available in `data/` directory.
+I taken only 100 rows from this dataset and preprocessed very well that rnn can take. the preprocessed data available in `data/` as `encoded_spam.pkl`
 
-You can take whole dataset and experiment, if you wish. but I haven't added any preprocessing code just to make this repo simple. [Here](https://www.kaggle.com/uciml/sms-spam-collection-dataset/notebooks) you can find how to do.
+You can take whole dataset and experiment by using `src/preprocessing.py`, if you wish. but you need additional libraries/packages.
+
+you can find more processing ideas [here](https://www.kaggle.com/uciml/sms-spam-collection-dataset/notebooks).
 
 #### Execution
 
